@@ -55,7 +55,7 @@ function App() {
           <MenuProvider>
             <ProductsProvider>
               <Auth0Wrapper>
-                <h1>Russell was here!</h1>
+                <h1>This is the testing version!</h1>
                 <Switch>
                   <Route exact path="/" component={Home} />
                   <ProtectedRoute
